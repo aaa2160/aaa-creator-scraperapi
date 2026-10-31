@@ -2,8 +2,7 @@ name: AAA • ScraperAPI Harvester
 
 on:
   schedule:
-    - cron: "0 2 * * 1"
-  workflow_dispatch:
+    - cron: "0 2,14 * * *":
 
 jobs:
   harvest:
